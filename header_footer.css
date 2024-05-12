@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    color:rgb(103, 190, 234);
+    padding-bottom: 7px;
+    border-bottom: 3px solid rgb(95, 191, 239);
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(103, 190, 234);
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type="text"] {
+    border: none;
+    margin-right: 10px;
+}
+
+header form div input[type="submit"]{
+    background: url("../images/поиск.png") no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+header form div input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+header .cart img{
+    margin-right: 7px;
+}
+
+header .cart div p {
+    font-size: 0.938em;
+}
+
+header .cart div a {
+    font-size: 0.750em;
+    color:rgb(103, 190, 234);
+}
+
+footer {
+    background-color:rgb(33, 33, 129);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    align-items: flex-start;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: rgb(103, 190, 234);
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 150px;
+}
+
+footer .left nav {
+    margin-left: 100px;
+}
+
+footer .left nav a {
+    display: block;
+    font-size: 0.875em;
+    color: rgb(152, 207, 234);
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a:hover, footer .left nav a.active {
+    color:blue;
+}
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid rgb(152, 207, 234);
+}
+
+footer .right form input[type='text'] {
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type='submit'] {
+    width: 15px;
+    height: 15px;
+    background: url('../images/поиск.png') no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+footer .right > div {
+    text-align: center;
+    font-size: 0.875em;
+    color: rgb(152, 207, 234);
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box {
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+    margin: 16px 16px 0;
+}
+
+footer .right .insta {
+    background: url('../images/инстаграм.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .vatsap {
+    background: url('../images/ватсап.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .vk {
+    background: url('../images/вк.png') no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .copyrigts {
+    text-align: center;
+    color:rgb(152, 207, 234);
+    font-size: 0.750em;
+    margin-top: 60px;
+}
