@@ -1,0 +1,172 @@
+.block1 {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu {
+    width: 260px;
+}
+
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #4b4b4e;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+
+.block1 .menu a:hover, 
+.block1 .menu a.active {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(103, 190, 234);
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+
+.block1 .items {
+    padding-left:25px;
+}
+
+.block1 .items .box figure figcaption {
+    padding-left: 23px;
+    color: #4b4b4e;
+}
+
+.block1 .items .boxes {
+    flex-wrap: wrap;
+}
+
+.block1 .items .boxes .box {
+    margin-bottom: 28px;
+}
+
+.box figure figcaption p {
+    font-size: 0.938em;
+}
+
+.box figure figcaption p span {
+    font-size: 1.250;
+    font-weight: 600;
+}
+
+.box .title {
+    color: #4b4b4e;
+    font-size: 0.875;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.box button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(103, 190, 234);
+    color: white;
+    margin-top: 15px;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+}
+
+.box button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.block1 .items .pagination {
+    text-align: center;
+}
+
+.block1 .items .pagination a {
+    margin: 0 5px;
+    color: #4b4b4e;
+    text-decoration: none;
+}
+
+.block1 .items .pagination a:hover,
+.block1 .items .pagination a.active{
+    color: rgb(103, 190, 234);
+    font-weight: bold;
+}
+
+.news h2, .adv h2, .sub h2 {
+    text-align: center;
+    margin: 70px 0;
+    color: #4b4b4e;
+    font-size: 1.875em;
+    font-weight: 600;
+}
+
+.news .box figure {
+    padding-right: 20px;
+}
+
+.adv div p {
+    color: #606063;
+    font-size: 1.125em;
+    font-weight: 300;
+    max-width: 400px;
+}
+
+.adv div figure {
+    margin: 0 50px;
+    text-align: center;
+}
+
+.adv div figure figcaption {
+    color: #606063;
+    font-size: 0.850em;
+    font-weight: 300;
+}
+
+.sub {
+    text-align: center;
+}
+
+.sub h2 {
+    margin-bottom: 10px;
+}
+
+.sub .title {
+    font-size: 1.250em;
+    color: #606063;
+    font-weight: 600;
+    margin-bottom: 45px; 
+}
+
+.sub form div input {
+    border-radius: 20px;
+    font-size: 0.938em;
+}
+
+.sub form div input[type="email"] {
+    padding: 15px;
+    border: 1px solid rgb(33, 33, 129);
+    width: 260px;
+}
+
+.sub form div input[type="submit"] {
+    padding: 15px;
+    width: 260px;
+    text-align: center;
+    background-color: rgb(33, 33, 129);
+    color: white;
+    border: none;
+}
+
+.sub form div input[type="submit"]:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sub p:not(.title){
+    font-size: 0.813em;
+    color: #606063;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+.sub p:not(.title) a {
+    color:rgb(33, 33, 129);
+}
